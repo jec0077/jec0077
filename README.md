@@ -14,20 +14,21 @@ relevant_courses = {
                   "ECE 266":"Embedded Systems"
                   }
                   
-coding_languages = ["C", "C++", "Python", "HTML", "CSS"]
+coding_languages = ["C", "C++", "Python", "HTML", "CSS", "ARMv7"]
 
 def student_leadership(org_name: str) -> str:
   organizations = ["National Society of Black Engineers", "UIC Flames Leadership Council"]
   if org_name == organizations[0]:
-    return "UIC Chapter Treasurer - 2021-Present")
+    return "UIC Chapter VP, Treasurer - 2021-Present")
   elif org_name == organizations[1]:
     return "First Inaugural Class of Flames Leadership Scholars - 2021"
   else:
     return ""
   
 interests = (
+            "Electronic Engineering",
             "Embedded Software Development",
-            "Microcontrollers and microprocessors",
+            "Microcontrollers and Microprocessors",
             "Reliability Testing of Computer Components", 
             "Software Engineering", 
             "Product Management", 
